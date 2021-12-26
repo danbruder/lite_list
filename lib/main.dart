@@ -77,7 +77,7 @@ class _TodoListState extends State<TodoList> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: const Text('Add a ADELYNN to your list'),
+            title: const Text('Add a thing to your list'),
             content: TextField(
               controller: _textFieldController,
               decoration: const InputDecoration(hintText: 'Enter task here'),
